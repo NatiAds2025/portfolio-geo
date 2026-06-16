@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: white;
+    background-image: url(./capa\ 2.jpg);
+    background-size: cover;
+    background-size: center;
+}
+
+.caixa-principal {
+    width: 100%;
+    height: 1000%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.portfólio {
+    color: rgb(2, 2, 2);
+    font-size: 35px;
+}
+
+.portfólio span {
+    color: deeppink;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: rgb(170, 233, 13);
+}
+
+li {
+    color: black;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+li:hover {
+    color: rgb(170, 233, 13);
+    transition: 0.5s;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+#tema {
+    width: 80px;
+    height: 40px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 17px;
+    color: black;
+    background-color: #a49292
+}
+
+#tema:hover {
+
+    color: rgb(176, 206, 9);
+
+}
+
+.meu-nome {
+    position: relative;
+    top: 40%;
+    margin-left: 10%;
+
+}
+
+h1 {
+    color: black;
+    font-size: 65px;
+}
+
+h1 span {
+    color: deeppink;
+}
+
+.meu-nome h3 {
+    color: rgb(49, 53, 53);
+    font-size: 25px;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 60px;
+    padding: 80px 10%;
+    background-color: white;
+}
+
+section img {
+    width: 300px;
+    height: 300 px;
+    margin-left: 800px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+section div h2 {
+    color: black;
+    font-size: 30px;
+    margin-left: 0 0 15px 0;
+    margin-bottom: 20px;
+
+}
+
+section div p {
+    color: black;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.formação {
+    background-color: rgb(254, 255, 255);
+}
+
+.formação h2 {
+    color: black;
+    font-size: 30px;
+    margin-left: 149px;
+    margin-bottom: 20px;
+}
+
+.formação li {
+    color: black;
+    display: block;
+    font-size: 25px;
+    margin-left: 149px;
+    margin-bottom: 30px;
+
+
+}
+
+.projeto {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+.projeto h2 {
+    color: black;
+    font-size: 30px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.card {
+    background-color: rgb(235, 231, 231);
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 560px;
+
+}
+
+.card img {
+    height: 100px;
+    background-color: white;
+}
+
+.card h5 {
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    margin-left: 15px;
+    margin-bottom: 15px
+}
+
+.card p {
+    color: #171516;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.card a {
+    background-color: #db0771;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.contato {
+    background-color: hsl(0, 4%, 86%);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#formContato {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #faf8f8;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#formContato input,
+#formContato textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 16px;
+
+}
+
+#formContato input:focus,
+#formContato textarea:focus {
+    outline: none;
+    border-color: hsl(80, 3%, 55%);
+}
+
+#formContato textarea {
+    resize: none;
+    height: 120px;
+}
+
+#formContato button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(169, 170, 163);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#formContato button:hover {
+    background-color: yellow;
+    transform: 0.5s;
+}
+
+.rodape {
+    background-color: whitesmoke
+}
+
+.rodape h5 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.rodape span {
+    color: deeppink;
+}
+
+/* TEMA ESCURO */
+
+body.tema-escuro {
+    background: #121212;
+    background-image: none;
+    color: white;
+}
+
+body.tema-escuro nav {
+    background-color: #1e1e1e;
+}
+
+body.tema-escuro h1,
+body.tema-escuro h2,
+body.tema-escuro h3,
+body.tema-escuro h5,
+body.tema-escuro p,
+body.tema-escuro li,
+body.tema-escuro a {
+    color: white;
+}
+
+body.tema-escuro section,
+body.tema-escuro .formação,
+body.tema-escuro .projeto {
+    background-color: #222;
+}
+
+body.tema-escuro .contato {
+    background-color: #333;
+}
+
+body.tema-escuro .card {
+    background-color: #444;
+}
+
+body.tema-escuro #formContato {
+    background-color: #555;
+}
+
+body.tema-escuro input,
+body.tema-escuro textarea {
+    background-color: #fcf6f6;
+    color: white;
+    border: 2px solid #999;
+}
+
+body.tema-escuro .rodape {
+    background-color: #111;
+}
