@@ -1,29 +1,29 @@
-* {
+* {                            /*restaura toda  a página*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
 
-body {
-    background-color: white;
+body {           /*formatação da página HTML*/
+    background-color: white;  
     background-image: url(./capa\ 2.jpg);
     background-size: cover;
     background-size: center;
 }
 
 .caixa-principal {
-    width: 100%;
-    height: 1000%;
+    width: 100%;  /*atura*/
+    height: 1000%;/*largura*/
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
+nav {  /*alinhamento do menu*/
+    display: flex;   /*transforma o menu em um container fléxivel , alinhando um do lado do outro do menu */
+    align-items: center; /*alinhamento centro*/
+    justify-content: space-between; /*distribui o espaço na horizontal*/
+    padding-left: 30px; /*afastamento da esquerda*/
+    padding-right: 30px; /*afastamento da direit*/
+    padding-top: 30px;  /*AFASTAMENTO DO TOPO*/ 
 
 
 }
@@ -36,50 +36,50 @@ nav a {
 
 
 .portfólio {
-    color: rgb(2, 2, 2);
+    color: rgb(2, 2, 2);  /*cor*/
     font-size: 35px;
 }
 
-.portfólio span {
+.portfólio span {    /*cor de uma parte da palavra*/
     color: deeppink;
 }
 
-nav ul li a {
+nav ul li a {         /*formatação do menu principal*/
     text-decoration: none;
     color: black;
-    transition: 0.3s;
+    transition: 0.3s; /* mudança em 3 segundo*/
 }
 
-nav ul li a:hover {
+nav ul li a:hover {          /*mudança de cor das letras*/
     color: rgb(170, 233, 13);
 }
 
-li {
+li {                      
     color: black;
-    list-style: none;
+    list-style: none; /*retira sublinhado*/
     display: inline-block;
-    font-size: 25px;
-    margin-right: 20px;
-    cursor: pointer;
+    font-size: 25px;  /*tamanho fonte */
+    margin-right: 20px; /*espaçamento margem direita*/
+    cursor: pointer; /*cursor vira figura de uma mão*/
 
 }
 
 li:hover {
     color: rgb(170, 233, 13);
-    transition: 0.5s;
-    text-decoration: none;
+    transition: 0.5s;  /* tempo de transição */
+    text-decoration: none; /* retira sublinhaddo do text*/
     color: black;
 
 
 }
 
-#tema {
+#tema {   /*formatação única do botao*/
     width: 80px;
     height: 40px;
     padding: 8px 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    border: none; /* sem borda*/
+    cursor: pointer; 
+    border-radius: 5px; /*arredondamento da borda*/
     font-size: 17px;
     color: black;
     background-color: #a49292
@@ -193,7 +193,7 @@ section div p {
 
 }
 
-.card img {
+.card img {     /*formatação imagem*/
     height: 100px;
     background-color: white;
 }
@@ -206,7 +206,7 @@ section div p {
     margin-bottom: 15px
 }
 
-.card p {
+.card p {           /*formatação parágrafo*/
     color: #171516;
     font-size: 20px;
     margin-left: 20px;
@@ -215,7 +215,7 @@ section div p {
     text-align: center;
 }
 
-.card a {
+.card a {        /*botão do link */                  
     background-color: #db0771;
     color: white;
     padding: 10px 20px;
@@ -238,16 +238,17 @@ section div p {
     margin-bottom: 30px;
 }
 
-#formContato {
+#formContato {    /*formatação única id contato*/
     max-width: 500px;
     margin: 0 auto;
     background: #faf8f8;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* adapta uma sombra na caixa , 0 = deslocamento horizontal da sombra 
+    , 4x vertcal , 15 px desfoque , e após a cor */
 }
 
-#formContato input,
+#formContato input,    /* formatação do espaço do texto*/
 #formContato textarea {
     width: 100%;
     padding: 12px;
@@ -258,18 +259,18 @@ section div p {
 
 }
 
-#formContato input:focus,
+#formContato input:focus, /*Eles definem exatamente quais elementos vão receber o estilo e  pseudo-classe que significa "quando o campo estiver focado*/
 #formContato textarea:focus {
     outline: none;
     border-color: hsl(80, 3%, 55%);
 }
 
 #formContato textarea {
-    resize: none;
+    resize: none;  /*usuário não pode redimensionar o ára de texto*/
     height: 120px;
 }
 
-#formContato button {
+#formContato button { /*estilo do botão*/
     width: 100%;
     padding: 12px;
     border: none;
@@ -303,7 +304,7 @@ section div p {
     color: deeppink;
 }
 
-/* TEMA ESCURO */
+/* TEMA ESCURO - estilo do tema , com as cores do corpo, botões, textos e caixas*/
 
 body.tema-escuro {
     background: #121212;
@@ -353,3 +354,4 @@ body.tema-escuro textarea {
 body.tema-escuro .rodape {
     background-color: #111;
 }
+
