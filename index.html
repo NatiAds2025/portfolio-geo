@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo.css"> <!--link para css -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <title>Natalia Georgetto - Portifólio</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"> <!--fonte usada-->
+    <title>Natalia Georgetto - Portifólio</title> <!-- título -->
 </head>
 <body>
-    <div class="caixa-principal">
+    <div class="caixa-principal"> <!--bloco navegação principal-->
      <nav>
-        <h2 class="portfólio">Portfó<span>lio</span></h2>
-        <ul>
+        <h2 class="portfólio">Portfó<span>lio</span></h2> <!-- título com alterações das cores --> 
+        <ul> <!-- lista-->
             <li><a href="#sobre-id">Sobre</a></li>
             <li><a href="#formação-id">Formação</a></li>
             <li><a href="#projeto-id">Portfólio</a></li>
             <li><a href="#contato-id">Contato</a></li>
-            <button id = "tema">Escuro</button>
+            <button id = "tema">Escuro</button> <!--botão pra escurecer tela -->
         </ul>
      </nav>
-     </div>
+     </div> 
     
-     <div class="meu-nome">
+     <div class="meu-nome"> <!-- outro bloco e criação e uma classe   -->
         <h1> Natalia<span>Georgetto</span></h1>
         <h3>Desenvolvedora Front End </h3>
-     </div>
+     </div> <!--fechamento bloco -->
     
 
-    <section id="sobre-id" >
+    <section id="sobre-id" > <!-- outro bloco agrupando informações com criação de uma id  -->
        <div>
             <img src="foto.eu.jpeg" alt="Minha foto">
             <h2> Sobre Mim:</h2>
@@ -39,53 +39,55 @@
         </div>
      </section>
 
-     <div class="formação" id="formação-id">
-        <h2>Formação</h2>
-        <ul>
+     <div class="formação" id="formação-id">   <!-- bloco com id e class -->
+        <h2>Formação</h2> 
+        <ul> <!-- outra lista -->
             <li>Estudante Análise e Desenvolvimento de Sistemas</li>
             <li> Inglês intermediário</li>
             <li>Experiência com HTML/CSS/JavaScript</li>
             <li> Experiência com Python</li>
         </ul>
-        </div>
+        </div> <!--fechamento lista-->
 
-        <div class="projeto" id="projeto-id">
+        <div class="projeto" id="projeto-id">  <!-- bloco sobre projetos -->
             <h2> Portfólio - Principais Projetos </h2>
         
-        <div class="card">
+        <div class="card"> <!-- bloco da imagem -->
 
-           <img src="moeda.png" alt="moeda">
-           <h5> Money Conversor</h5>
-           <p>Conversor de moeda - Real para Dólar</p>
-           <a href="teste.html" target="_blank">Ver Projeto</a>
+           <img src="moeda.png" alt="moeda"> <!-- link da imagem -->
+           <h5> Money Conversor</h5> <!--subtítulo -->
+           <p>Conversor de moeda - Real para Dólar</p> <!--parágrafo-->
+           <a href="teste.html" target="_blank">Ver Projeto</a> <!--link do projeto e target =abre em outra página , ainda não funcionante -->
         </div>
         </div>
 
 
-        <div class="contato " id="contato-id">
+        <div class="contato " id="contato-id"> <!-- boloco do contato-->
          <h2>Contato</h2>
 
-         <form id="formContato">
+         <form id="formContato"> <!-- formulário  com id -->
 
-        <input type="text"id="nome"placeholder="Digite seu nome">
+        <input type="text"id="nome"placeholder="Digite seu nome"> <!-- espaço para usuário preencher-->
         <br><br>
-        <input type="email" id="email"placeholder="Digite seu e-mail">
+        <input type="email" id="email"placeholder="Digite seu e-mail"> <!--idem anterior -->
+        <br><br>
+        <textarea id="mensagem" rows="5"placeholder="Digite sua mensagem"></textarea><!--aréa para usuário digitar uma msg , contendo 5 linhas -->
+<br><br>  
 
 <br><br>
-           <textarea id="mensagem" rows="5"placeholder="Digite sua mensagem"></textarea>
-<br><br>
-        <button type="submit">Enviar </button>
+        
+        <button type="submit">Enviar </button>  <!--botão de enviar-->
 
-</form>
+</form> <!--fecha formulário-->
 
 </div>
 
-<footer class="rodape">
+<footer class="rodape">  <!--rodapé e criação de uma class -->
 <h5>Portfó<span>lio</span> Online</h5>
 
 </footer>
 
- <script src="script.js"></script>
+ <script src="script.js"></script> <!-- caminho para p JS-->
 </body>   
 </body>
 </html>
